@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial Básico de Django</title>
+	<link rel="icon" href="img/django.png">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header>
+    	<div class="header-container">
+        	<img src="img/logo_django.png" alt="Django Logo" class="header-logo">
+        
+        	<div class="header-text">
+            	<h1>Tutorial Básico de Django</h1>
+            	<p>Aprende los conceptos fundamentales de Django paso a paso.</p>
+        	</div>
+    	</div>
+	</header>
+
+	<div class="container">
+		<nav>
+			<h2>Contenido</h2>
+			<ol>
+				<li><a href="#que-es">¿Qué es Django?</a></li>
+				<li><a href="#instalacion">Instalación de Django</a></li>
+				<li><a href="#modelos">Modelos en Django</a></li>
+				<li><a href="#vistas">Vistas en Django</a></li>
+				<li><a href="#templates">Templates en Django</a></li>
+				<li><a href="#servidor">Servidor de desarrollo</a></li>
+			</ol>
+		</nav>
+
+		<main>
+			<section id="que-es">
+				<h2>¿Qué es Django?</h2>
+				<img src="img/logo_django.png" alt="Logo Django" class="img-logo">
+				<p>
+					Django es un framework de desarrollo web de alto nivel creado en Python. 
+					Permite desarrollar aplicaciones web de manera rápida, segura y organizada, 
+					siguiendo el patrón MVT (Modelo-Vista-Template).
+				</p>
+			</section>
+
+			<section id="instalacion">
+				<h2>Instalación de Django</h2>
+				<img src="img/instalacion_Django.png" alt="Instalación de Django">
+				<p>Para instalar Django se utiliza el gestor de paquetes de Python (pip):</p>
+				<pre>pip install django</pre>
+				<p>Después de instalarlo, puedes verificar que la instalación fue exitosa revisando la versión:</p>
+    			<pre>pip install django</pre>
+			</section>
+
+			<section id="modelos">
+				<h2>Modelos en Django</h2>
+				<img src="img/modelos_django.png" alt="Modelos Django">
+				<p>
+					Los modelos permiten definir la estructura de la base de datos utilizando clases de Python. 
+					Django se encarga de traducir este código a tablas SQL de forma automática.
+				</p>
+			</section>
+
+			<section id="vistas">
+				<h2>Vistas en Django</h2>
+				<img src="img/vista_django.png" alt="Vistas Django">
+				<p>
+					Las vistas contienen la lógica de negocio de la aplicación. Se encargan de procesar 
+					las solicitudes (requests) del usuario y retornar una respuesta (response).
+				</p>
+			</section>
+
+			<section id="templates">
+				<h2>Templates en Django</h2>
+				<img src="img/template_django.png" alt="Templates Django">
+				<p>
+					Los templates permiten mostrar contenido HTML dinámico utilizando el motor de plantillas de Django, 
+					facilitando la inserción de variables y lógica básica directamente en el HTML.
+				</p>
+			</section>
+
+			<section id="servidor">
+				<h2>Servidor de Desarrollo</h2>
+				<img src="img/servidor_django.png" alt="Servidor Django">
+				<p>Para ejecutar el servidor local de desarrollo, sitúate en la carpeta del proyecto y ejecuta:</p>
+				<pre>python manage.py runserver</pre>
+				<p>Luego, puedes acceder desde tu navegador favorito utilizando la siguiente dirección URL:</p>
+				<pre>http://127.0.0.1:8000</pre>
+			</section>
+		</main>
+	</div>
+	
+	<footer>
+		<p>Desarrollado con ❤️ por: <strong>Jhan Snaider Sánchez</strong></p>
+	</footer>
+</body>
+</html>
